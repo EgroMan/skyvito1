@@ -1,0 +1,35 @@
+.main{
+  width: 214px;
+  height: 62px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #009ee4;
+  border: 1px solid #009ee4;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+.button:disabled {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #D9D9D9;
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+
